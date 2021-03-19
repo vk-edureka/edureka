@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bollywood>
+	<star>
+		<userid>1</userid>
+		<username>shahrukh</username>
+		<password>Badshah</password>
+		<secret>star by chance</secret>
+		<movie>chak de India</movie>
+		<genre>epic</genre>
+	</star>
+	<star>
+		<userid>2</userid>
+		<username>rithik</username>
+		<password>KahoNaPyaarHai</password>
+		<secret>extra thumb</secret>
+		<movie>krish</movie>
+		<genre>action</genre>
+	</star>
+	<star>
+		<userid>3</userid>
+		<username>aishwarya</username>
+		<password>YePyaarNahiAasan</password>
+		<secret>mera guru mere bhagwan</secret>
+		<movie>hum dil de chuke sanam</movie>
+		<genre>romantic music thriller drama</genre>
+	</star>
+	<star>
+		<userid>4</userid>
+		<username>salman</username>
+		<password>ChulbulPandey</password>
+		<secret>whatever you see is fake</secret>
+		<movie>dabangg</movie>
+		<genre>action romantic thriller</genre>
+	</star>
+	<star>
+		<userid>5</userid>
+		<username>deepika</username>
+		<password>OmShantiOm</password>
+		<secret>Ranveer Not Ranbir</secret>
+		<movie>ram leela</movie>
+		<genre>romantic thriller horror action</genre>
+	</star>
+	<star>
+		<userid>6</userid>
+		<username>ranbir</username>
+		<password>LoveMeMore</password>
+		<secret>Daddy ko peeche chorhna hai</secret>
+		<movie>sanju</movie>
+		<genre>romantic thriller music action</genre>
+	</star>
+</bollywood>

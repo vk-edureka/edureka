@@ -1,0 +1,25 @@
+#### - server install ####
+
+sudo apt-get install mysql-server root_password - 321Dev
+
+mysql -u root -p321Dev < edurekadb.sql
+
+grant select on edurekadb.* to 'api_user'@'%' identified by 'edu4dev33';
+grant insert,update,select on edurekadb.useractivitylogtable to 'api_user'@'%';
+grant insert,update,select on edurekadb.userassessmenttable to 'api_user'@'%';
+grant insert,update,select on edurekadb.userinfo to 'api_user'@'%';
+grant select on edurekadb.solutiontable to 'api_user'@'%';
+flush privileges;
+
+### - python setup - ###
+sudo apt install python3-pip
+sudo apt-get install python3-dev
+sudo apt-get install libmysqlclient-dev
+sudo apt install libssl-dev
+
+pip3 install flask
+pip3 install flask_restful
+pip3 install mysqlclient
+pip3 install flask_mysqldb
+pip3 install mysql-connector
+

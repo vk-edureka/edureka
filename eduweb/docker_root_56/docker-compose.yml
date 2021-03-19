@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  php:
+    build: php
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      - MYHOST=${MYHOST}
+    volumes:
+      - ../integratedcode:/var/www/html
+  db:
+    image: mysql:5.7
+    command: --init-file /data/application/edureka_cybersecurity.sql
+    volumes:
+     - /var/lib/mysql
+     - ../SQL/edureka_cybersecurity.sql:/data/application/edureka_cybersecurity.sql
+    environment:
+     - MYSQL_ROOT_PASSWORD=hunter2
+     - MYSQL_DATABASE=database

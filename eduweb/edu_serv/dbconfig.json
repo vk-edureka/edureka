@@ -1,0 +1,7 @@
+{
+        "user": "api_user",
+        "password": "edu4dev33",
+        "host": "localhost",
+        "database": "edurekadb",
+        "raise_on_warnings": true
+}

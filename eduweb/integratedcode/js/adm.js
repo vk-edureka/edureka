@@ -1,0 +1,6 @@
+var admins = "AdMiNistrator"
+var adminspwd = "Pa55w0rD"
+var adminnamecookie = "administrator"
+var adminpswdcookie = "aDWIn"
+var usernamecookie = "john"
+var userpswdcookie = "snow321"
